@@ -1,5 +1,6 @@
 
-provider "aws" { # first thing is to mention provider, which is aws in 
+provider "aws" { # have to define access key and secter access key in git hub also
+  # first thing is to mention provider, which is aws in 
                  #this case
   region = "us-east-1" /*
   Region: us-east-1 (can be changed as needed).
